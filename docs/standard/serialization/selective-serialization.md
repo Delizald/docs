@@ -17,7 +17,8 @@ A class often contains fields that shouldn't be serialized. For example, assume 
 public class MyObject
 {  
   public int n1;  
-  [NonSerialized] public int n2;  
+  [NonSerialized] 
+  public int n2;  
   public String str;  
 }  
 ```
